@@ -1,0 +1,36 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 960px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  background: #000000 url("../img/barbershop-bg.jpg") no-repeat center top;
+  color: #ffffff;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+.inner-page {
+    color: #000000;
+    background: #f8f3f0 url("../img/bg-white-noise.jpg") repeat;
+}
+/*Псевдоэлемент - распорка*/
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*Центровщик*/
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
